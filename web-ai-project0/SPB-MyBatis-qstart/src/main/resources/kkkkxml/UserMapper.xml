@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--namespace复制MApper的引用-->
+<mapper namespace="kkkk.htinez.spbmybatisqstart.Mapper.UserMapper">
+<!--        id要与接口的方法名一致，并且返回类型也要一致-->
+<!--    resultType指的是查询返回的单条记录所封装的数据类型-->
+    <select id="findAll" resultType="kkkk.htinez.spbmybatisqstart.pojo.User">
+        select id, username, password, name, age from user
+    </select>
+
+
+</mapper>
+        <!--约束，直接官网复制-->

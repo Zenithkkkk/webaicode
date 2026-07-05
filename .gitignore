@@ -1,0 +1,25 @@
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Build
+target/
+build/
+out/
+*.class
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temp
+temp/
+.accelerate/
+
+# Downloading files
+*.downloading
